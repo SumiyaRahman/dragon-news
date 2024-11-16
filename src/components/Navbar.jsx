@@ -16,7 +16,7 @@ const Navbar = () => {
                     <img className='w-9 h-9' src={user} />
                 </div>
                 <div>
-                    <button className='text-base font-semibold text-white py-2 px-10 bg-[#403F3F]'>Login</button>
+                    <Link to='/auth/login' className='text-base font-semibold text-white py-2 px-10 bg-[#403F3F]'>Login</Link>
                 </div>
             </div>
         </div>
